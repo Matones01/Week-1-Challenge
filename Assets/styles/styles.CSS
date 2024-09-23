@@ -8,7 +8,11 @@ body {
 }
 header{
     display: inline;
+    position:fixed;
+    width:100%;
+    left:0;
 }
+
 ul{
     list-style: none;
     margin: 0;
@@ -16,7 +20,6 @@ ul{
     overflow: hidden;
     background-color: rgb(32, 30, 36);
 }
-
 li {
     float:left;
     margin:10px;
@@ -41,4 +44,8 @@ hr {
 .nav{
     color:#ffffe4;
     margin:10px;
+}
+.pic{
+    width:200px;
+    height:200px;
 }
